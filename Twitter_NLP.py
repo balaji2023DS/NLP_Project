@@ -68,7 +68,7 @@ def lemmatizer(text : str):
 
 #Load the data
 data = pd.read_csv(r'D:\\Guvi\\Final_Project\\FinalBalancedDataset.csv')
-data=data.head(1000)
+#data=data.head(1000)
 # print(data)
 
 data['Tweet'] = data['Tweet'].apply(lambda x : remove_punc_dig(x))
