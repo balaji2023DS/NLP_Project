@@ -12,7 +12,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 
 def main():
-    st.title("Classifier Evaluation with PCA and ROC Analysis")
+    st.title("Kannada MNIST Classifier Evaluation with PCA and ROC Analysis")
 
     # Load the features dataset
     features_path = r"D:\\Guvi\\Final_Project\\Kannada_MNIST\\Kannada_MNIST_npz\\Dig_MNIST\\X_dig_MNIST.npz"
